@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Couple Day</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: Arial, sans-serif;
+            background: url('fon2.jpeg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 150px; 
+        }
+
+        .image-row {
+            display: flex;
+            justify-content: center;
+            margin-top: 1800px; 
+        }
+
+        .image-row img {
+            width: 40%;
+            max-width: 150px;
+            margin: 0 10px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .title {
+            font-size: 450px;
+            font-weight: bold;
+            color: #ff69b4;
+            margin: 20px 0;
+            text-align: center;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .message, .message-2 {
+            font-size: 16px;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            line-height: 1.6;
+            max-width: 90%;
+            margin: 0 10px;
+        }
+
+        .message {
+            margin-bottom: 20px; 
+        }
+
+        .message-2 {
+            margin-bottom: 30px; 
+            font-size: 14px; 
+            padding: 15px; 
+        }
+
+        .message p {
+            margin: 10px 0;
+        }
+
+        .message-2 p {
+            margin: 8px 0;
+        }
+
+        .button-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px; 
+            margin-bottom: 50px; 
+        }
+
+        .next-button, .no-button {
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+
+        .no-button {
+            background-color: #b0b0b0;
+        }
+
+        .next-button:hover {
+            background-color: #ff1493;
+        }
+
+        .no-button:hover {
+            background-color: #8e8e8e;
+        }
+    </style>
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="Kimya Dawson - You Love Me.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    
+   
+
+    <div class="title">--------------</div>
+
+    <div class="message">
+        <p>Құрметті кластас қыздар! 🌸💐<br>
+
+            8 наурыз – көктемнің шуағымен бірге келетін ең нәзік, ең әсем мереке!
+             <br>Осы ерекше күні сіздерге шын жүректен бақыт, шаттық, махаббат пен қуаныш тілеймін. Әрқашан күлімдеп, өмірдің барлық сәттерінен ләззат алыңыздар!
+             Армандарыңыз орындалып, алдағы өмірлеріңіз тек жақсылыққа толы болсын.
+            
+            Сіздер біздің сыныптың сәні, көңілдің шуағысыздар! Әрқайсыңызға тек сәттілік, денсаулық және шынайы бақыт тілеймін. Жүздеріңізден күлкі кетпей, жүректеріңіз әрдайым жылулыққа толы болсын! 🌷✨
+            
+           <br> 8 наурыз құтты болсын! 🎉💖
+    </div>
+    <div class="message">
+        <p>Сіздерді мерекелеріңізбен құттықтай отырып мерекелік кешке шақырамыз!
+            <br> Мекен-жайымыз:А.Байтұрсынұлы көшесі 18-і үй<br>
+            Күні: 06.03.2025 cағат: 17:00</p>
+    </div>
+
+    
+
+</body>
+<body>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Компьютерде әр қатарда 3 сурет */
+            gap: 10px;
+            max-width: 600px;
+            margin: auto;
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .gallery img {
+            width: 100%;
+            height: 200px; /* Барлық суреттердің биіктігі бірдей */
+            object-fit: cover; /* Суреттің пропорциясы сақталады */
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+
+        /* 🔹 Телефон экраны (600px-ден кішкентай) */
+        @media (max-width: 600px) {
+            .gallery {
+                grid-template-columns: repeat(2, 1fr); /* Телефонда әр қатарға 2 сурет */
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <h1> Кеш қонақтары:</h1>
+
+    <div class="gallery">
+        <img src="1ARAI.png" alt="Сурет 1">
+        <img src="2MEREI.jpg" alt="Сурет 2">
+        <img src="3BOCHKA.png" alt="Сурет 3">
+        <img src="4KARA.png" alt="Сурет 4">
+        <img src="5MIKOCH.png" alt="Сурет 5">
+        <img src="6NARGIZ.png" alt="Сурет 6">
+        <img src="7KAUSIK.png" alt="Сурет 7">
+        <img src="8SYNDU.jpeg" alt="Сурет 8">
+        <img src="9ASEMAI.jpeg" alt="Сурет 9">
+        <img src="10AIDANA.jpeg" alt="Сурет 10">
+        <img src="11TOSHKA.jpeg" alt="Сурет 11">
+        <img src="12BALAU.jpeg" alt="Сурет 12">
+    </div>
+    
+        
+        <div class="message-2">
+            <p>（づ￣3￣）づ╭❤️～</p>
+        </div>
+    
+        <div class="button-row">
+            <a href="https://api.whatsapp.com/send/?phone=77762117678&text&type=phone_number&app_absent=0" class="next-button">Ответь?</a>
+            <a href="No.html" class="no-button">Ещё...</a>
+        </div>
+    
+
+</body>
+</html>
